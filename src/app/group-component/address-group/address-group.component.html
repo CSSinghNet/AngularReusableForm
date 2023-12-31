@@ -1,0 +1,13 @@
+
+<fieldset [formGroupName]="controlKey">
+    <Legend> {{label}}</Legend>
+    <mat-form-field appearance="outline">
+      <mat-label>Zip</mat-label>
+      <input matInput placeholder="Zip" formControlName="zip">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+      <mat-label>Street</mat-label>
+      <input matInput placeholder="Street" formControlName="street">
+    </mat-form-field>
+  </fieldset>
